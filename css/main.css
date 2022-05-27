@@ -1,0 +1,8 @@
+
+
+/* main section band image */
+.masterhead{
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+}
