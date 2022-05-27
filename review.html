@@ -37,9 +37,9 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#aboutus" class="nav-link">About us</a></li>
+                    <li class="nav-item"><a href="review.html" class="nav-link">Review</a></li>
                     <li class="nav-item"><a href="#concerts" class="nav-link">Concerts</a></li>
-                    <li class="nav-item"><a href="#contactus" class="nav-link">Contact us</a></li>
+                    <li class="nav-item"><a href="https://codefactory.wien/en/contact-en/" target="_blank" class="nav-link">Contact us</a></li>
                     <button class="btn btn-success">Buy a ticket</button>
                 </ul>
             </div>
@@ -47,60 +47,206 @@
     </nav>
 
     <!-- header section concert  -->
-        <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
-            <div class="container">
-                <div class="d-sm-flex align-items-center justify-content-between">
-                    <div>
+        <section class="bg-dark text-light p-5 pt-lg-5 text-center text-sm-start">
+                <div class="row justify-content-around">
+                    <div class="col-lg-4 col-md-6 col-sm-10">
                         <h1><span class="text-success"> World </span> Music 
-                            <span class="text-success">
-                                Festival
-                            </span> 
+                            <span class="text-success"> Festival </span> 
                         </h1>
-                            <p class="lead my-4">
+                        <p class="lead my-4">
                                 One of the biggest festivals that Vienna has to offer, Donau island I is not known simply for its rich history and consistently strong lineups, but also for its longstanding links to charitable and community causes. What's more, you'd be hard pushed to find many more naturally beautiful settings than the river nature reserve that it calls home.
-    
-                            </p>
-                    
-                            
-                            <div><i class="bi bi-star-fill"></i>
+                        </p>        
+                        <div class="text-success">
+                            <h3>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
                                 <i class="bi bi-star-fill"></i>
-                            </div>
+                                <i class="bi bi-star-fill"></i>
+                            </h3>
+                        </div>
                             <p>4.9 avarage from 15,500 visitors ratings</p>
                     </div>
-                    <div>
+                    <div class="col-lg-4 col-md-6 col-sm-10">
                         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
-                              <div class="carousel-item active" data-bs-interval="10000">
-                                <img src="img/festival_background_4.jpg" class="d-block w-75" alt="...">
-                              </div>
-                              <div class="carousel-item" data-bs-interval="2000">
-                                <img src="img/festival_background_1.jpg" class="d-block w-75" alt="...">
-                              </div>
-                              <div class="carousel-item" data-bs-interval="2000">
-                                <img src="img/festival_background_2.jpg" class="d-block w-75" alt="...">
-                              </div>
-                              <div class="carousel-item" data-bs-interval="2000">
-                                <img src="img/festival_background_3.jpg" class="d-block w-75" alt="...">
-                              </div>
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="img/festival_background_4.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="img/festival_background_1.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="img/festival_background_2.jpg" class="" alt="...">
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="img/festival_background_3.jpg" class="" alt="...">
+                            </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                             </button>
                             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                             </button>
-                          </div>
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
     
-        
+    <!-- Main Section -->
+    <div class="content-fluid bg-light d-flex justify-content-center pt-5">
+        <div class="d-flex align-items-start">
+            <ul class="nav nav-pills flex-column m-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-5star-tab" data-bs-toggle="pill" data-bs-target="#pills-5star" type="button" role="tab" aria-controls="pills-5star" aria-selected="true"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-4star-tab" data-bs-toggle="pill" data-bs-target="#pills-4star" type="button" role="tab" aria-controls="pills-4star" aria-selected="false"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-3star-tab" data-bs-toggle="pill" data-bs-target="#pills-3star" type="button" role="tab" aria-controls="pills-3star" aria-selected="false"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-2star-tab" data-bs-toggle="pill" data-bs-target="#pills-2star" type="button" role="tab" aria-controls="pills-2star" aria-selected="false"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-1star-tab" data-bs-toggle="pill" data-bs-target="#pills-1star" type="button" role="tab" aria-controls="pills-1star" aria-selected="false"><i class="bi bi-star-fill"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i><i class="bi bi-star"></i></button>
+                </li>
+            </ul>
+        </div>
+        <div class="tab-content d-flex align-items-center m-3" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-5star" role="tabpanel" aria-labelledby="pills-5star-tab" tabindex="0">
+                <!-- card 5 star -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/avatar-1.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                </h5>
+                                <p class="card-text">This was the best event and concert ever. The atmosphere was breathtaking. It should happen every year  </p>
+                                <p class="card-text"><small class="text-muted">Last review 3 days ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="tab-pane fade" id="pills-4star" role="tabpanel" aria-labelledby="pills-4star-tab" tabindex="0">
+                <!-- card 4 star -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/avatar-2.jpg" class="img-fluid rounded-start height=300px" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                </h5>
+                                <p class="card-text">was really great. but still a lot going on  </p>
+                                <p class="card-text"><small class="text-muted">Last review 5 days ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="tab-pane fade" id="pills-3star" role="tabpanel" aria-labelledby="pills-3star-tab" tabindex="0">
+                <!-- card 3 star -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/avatar-3.jpg" class="img-fluid rounded-start height=300px" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                </h5>
+                                <p class="card-text">the performance was way too short  </p>
+                                <p class="card-text"><small class="text-muted">Last review 4 days ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="pills-2star" role="tabpanel" aria-labelledby="pills-2star-tab" tabindex="0">
+                <!-- card 2 star -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/avatar-4.jpg" class="img-fluid rounded-start height=300px" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                </h5>
+                                <p class="card-text">was actually very good. got hurt due to the crowd though.  </p>
+                                <p class="card-text"><small class="text-muted">Last review 2 days ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="pills-1star" role="tabpanel" aria-labelledby="pills-1star-tab" tabindex="0">
+                <!-- card 1 star -->
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="img/avatar-5.jpg" class="img-fluid rounded-start height=300px" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    <i class="bi bi-star-fill text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                    <i class="bi bi-star text-success"></i>
+                                </h5>
+                                <p class="card-text">way too expensive. far too long waiting times.  </p>
+                                <p class="card-text"><small class="text-muted">Last review 1 days ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <!-- footer button link -->
+    <div class="container d-flex justify-content-center">
+        <a href="index.html" class="btn btn-success p-2 m-5" role="button">Go back to the Main Page</a>
+    </div>
 
 
     <!-- footer -->
